@@ -1,0 +1,48 @@
+.ksumlogo{
+    height: 35%;
+    margin-bottom:20px;
+}
+.iedclogo{
+    margin-top:20px;
+    height: 20%;
+}
+
+/* Logo styling */
+.ksumlogo {
+    width: 100px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Adjust spacing */
+  }
+  
+  .iedclogo {
+    width: 100px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Address styling */
+  .address {
+    text-align: center;
+    color: #ffffff; /* Adjust color as needed */
+  }
+  
+  /* Button styling */
+  .btn-icon {
+    margin-right: 10px; /* Adjust spacing */
+  }
+  
+  /* Title styling */
+  .title {
+    color: #ffffff; /* Adjust color as needed */
+  }
+  
+  /* Connect with us button wrapper styling */
+  .btn-wrapper.profile {
+    text-align: center;
+  }
+  
+  /* Tooltip styling */
+  .tooltip-inner {
+    background-color: #ffffff; /* Adjust background color as needed */
+    color: #000000; /* Adjust text color as needed */
+  }
+  

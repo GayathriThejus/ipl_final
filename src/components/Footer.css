@@ -1,0 +1,76 @@
+/* Footer.css */
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+.custom-footer {
+    /* margin-left: 0;
+    margin-right: 0; */
+    font-family: 'Poppins',sans-serif;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+  }
+  
+  .logo-section img {
+    margin-top: 20px;
+    margin-left: 20px;
+
+    /* width: 100px; Adjust the logo size as needed */
+  }
+  
+  .contact-section {
+    /* flex: 1; */
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin-right: 20px;
+    color: white;
+    justify-content: center;
+    font-size: 28px;
+    margin-top: 30%;
+  }
+  .social-icons{
+    display: flex;
+  }
+  
+  .social-icons a:hover {
+    color: #ccc;
+  }
+  
+  .copyright {
+    display: flex;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+.ksumlogo{
+    height: 35%;
+    margin-bottom:20px;
+}
+.iedclogo{
+    margin-top:20px;
+    height: 20%;
+}
+
+/* Logo styling */
+.ksumlogo {
+    width: 100px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Adjust spacing */
+  }
+  
+  .iedclogo {
+    width: 100px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  

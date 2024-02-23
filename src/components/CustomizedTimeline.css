@@ -1,0 +1,61 @@
+.timeline-container {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.timeline-heading {
+  text-align: center;
+  color: #fd5d93;
+}
+
+.timeline {
+  width: 800px; 
+}
+
+.timeline-item {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 5s ease, transform 0.5s ease;
+}
+
+.timeline-item.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.timeline-connector {
+  height: 60px; 
+}
+
+.MuiTimelineDot-root {
+  width: 70px !important;
+  height: 70px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.timeline-dot {
+    background: linear-gradient(50deg, #d2001a, #7462ff, #d2001a, #7462ff);
+    /* Example gradient colors */
+    border: 2px solid white; /* Adjust border as needed */
+  }
+
+.timeline-content {
+  margin-left: 50px;
+  text-align: left;
+  margin-right: 40px;
+  color: white; 
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
