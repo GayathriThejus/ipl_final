@@ -1,0 +1,18 @@
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+.image{
+   
+    border-image: fill 0 linear-gradient(#0001,#000);
+  }
+
+  .track {
+ 
+    animation: marquee 23s linear infinite;
+}
+
+@keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+

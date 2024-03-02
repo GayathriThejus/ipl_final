@@ -10,15 +10,15 @@ import '../components/Gallery.css';
 function Gallery() {
   return (
     <div className='mx-auto'>
-      <div className='marquee  flex items-center mx-auto justify-center'>
+      <div className='marquee  rounded-lg w-[85%] flex items-center mx-auto justify-center relative scrollbar-hide'>
         <div className='track'>
-        <div className='content flex mx-4 '>
+        <div className='content flex mx-4 relative '>
             <img src={ksum_img2} className='w-[500px] h-[250px] '/>
-            <img src={ksum_img3} className='w-[500px] h-[250px]'/>
+            <img src={ksum_img3} className='w-[500px] h-[250px]  '/>
             <img src={ksum_img4} className='w-[500px] h-[250px] '/>
-            <img src={ksum_img5} className='w-[500px] h-[250px]'/>
-            <img src={ksum_img6} className='w-[500px] h-[250px]'/>
-            <img src={ksum_img7} className='w-[500px] h-[250px]'/>
+            <img src={ksum_img5} className='w-[500px] h-[250px] '/>
+            <img src={ksum_img6} className='w-[500px] h-[250px] '/>
+            <img src={ksum_img7} className='w-[500px] h-[250px] '/>
         </div>
         </div>
 

@@ -7,7 +7,9 @@ const Counter = () => {
   return (
     <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
     <div className='container max-w-[1000px] grid md:grid cols-3 lg:grid-cols-5 lg:flex lg:justify-center lg:items-center md:mt-3 mx-auto'>
-        <div className=' gradient-text relative w-230 h-180 m-10  rounded-lg  flex justify-center items-center border border-gray-400 border-t-0 border-l-0 border-b-rose-900 border-r-violet-500  '>
+   
+        <div className='gradient-text relative w-230 h-180 m-10  rounded-lg  flex justify-center items-center border border-gray-400 border-t-0 border-l-0 border-b-rose-900 border-r-violet-500   '>
+
         <div className='content p-[20px] text-center'>
         <p  ><span className='text-5xl font-bold '>{ counterOn && <CountUp start={0} end={375} duration={3} delay={0}   />}+</span> <br/>
           <h6>IEDCs</h6></p>
