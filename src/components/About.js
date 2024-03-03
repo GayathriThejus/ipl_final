@@ -11,9 +11,9 @@ const About = () => {
         initial='hidden'
         whileInView={'show'}
         viewport={{once:true,amount:0.7}}>
-            <img className='w-[500px] bg-transparent mb-6 'src={ipl_logo} alt='/'/></motion.div>
+            <img className='w-[500px] bg-transparent mb-6  'src={ipl_logo} alt='/'/></motion.div>
             <motion.div 
-            className='flex flex-col justify-center sm:py-4 'variants={fadeIn("right",0.1)}
+            className='flex flex-col justify-center sm:py-4 'variants={fadeIn("right",0.03)}
             initial='hidden'
             whileInView={'show'}
             viewport={{once:true,amount:0.7}}>
