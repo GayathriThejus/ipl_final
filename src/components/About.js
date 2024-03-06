@@ -4,16 +4,16 @@ import {motion} from 'framer-motion'
 import {fadeIn} from '../components/variants'
 const About = () => {
   return (
-    <div className='w-[95%] mx-auto py-16 px-4 bg-neutral-900 border-top rounded-2xl mt-[116px]'>
+    <div className='w-[95%] mx-auto py-16 px-4 bg-gray-900 border-top rounded-2xl mt-[116px]'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 items-center'>
         <motion.div 
-        variants={fadeIn("down",0.2)}
+        variants={fadeIn("down",0.1)}
         initial='hidden'
         whileInView={'show'}
         viewport={{once:true,amount:0.7}}>
             <img className='w-[500px] bg-transparent mb-6  'src={ipl_logo} alt='/'/></motion.div>
             <motion.div 
-            className='flex flex-col justify-center sm:py-4 'variants={fadeIn("right",0.03)}
+            className='flex flex-col justify-center sm:py-4 'variants={fadeIn("right",0.1)}
             initial='hidden'
             whileInView={'show'}
             viewport={{once:true,amount:0.7}}>

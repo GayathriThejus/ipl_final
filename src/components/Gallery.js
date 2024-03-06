@@ -6,10 +6,17 @@ import ksum_img5 from '../assets/images/ksum_img5.png'; // Import additional ima
 import ksum_img6 from '../assets/images/ksum_img6.png'; // Import additional images
 import ksum_img7 from '../assets/images/ksum_img7.png'; // Import additional images
 import '../components/Gallery.css';
+import {motion} from 'framer-motion'
+import {fadeIn} from '../components/variants'
 
 function Gallery() {
   return (
     <div className='mx-auto'>
+       <motion.div 
+        variants={fadeIn("up",0.1)}
+        initial='hidden'
+        whileInView={'show'}
+        viewport={{once:true,amount:0.7}}>
       <div className='marquee  rounded-lg w-[85%] flex items-center mx-auto justify-center relative scrollbar-hide'>
         <div className='track'>
         <div className='content flex mx-4 relative '>
@@ -22,7 +29,7 @@ function Gallery() {
         </div>
         </div>
 
-      </div>
+      </div></motion.div>
       
     </div>
   );
