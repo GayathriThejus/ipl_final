@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 import {fadeIn} from '../components/variants'
 const About = () => {
   return (
-    <div className='w-[95%] mx-auto py-16 px-4 bg-gray-900 border-top rounded-2xl mt-[116px]'>
+    <div className='w-[95%] mx-auto py-16 px-4 bg-gray-900 border-top rounded-2xl mt-[156px]'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 items-center'>
         <motion.div 
         variants={fadeIn("down",0.1)}

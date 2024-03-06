@@ -22,29 +22,13 @@ const Hero = () => {
         <p className='md:2xl text:xl font-light text-gray-500 pt-5 '>Ignite your entrepreneurial spirit.</p>
         </motion.div>
         <div className='grid sm:grid cols-3 md:grid-cols-1 md:flex md:justify-center md:mt-3 '>
-        <motion.div 
-        variants={fadeIn("down",0.2)}
-        initial='hidden'
-        whileInView={'show'}
-        viewport={{once:true,amount:0.7}}>
-
+       
         <div className='box bg-[#ebebeb] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'><span></span><p>Compete</p></div>
-        </motion.div>
-        <motion.div 
-        variants={fadeIn("up",0.2)}
-        initial='hidden'
-        whileInView={'show'}
-        viewport={{once:true,amount:0.7}}>
+       
            <div className='box bg-[#ebebeb] w-[200px] rounded-md font-medium md:my-6 mx-auto py-3 text-black'><span></span><p>Collaborate</p></div>
-        </motion.div>
-        <motion.div 
-        variants={fadeIn("down",0.2)}
-        initial='hidden'
-        whileInView={'show'}
-        viewport={{once:true,amount:0.7}}>
-          <div className='box bg-[#ebebeb] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'><span></span><p>Celebrate</p></div>
-        </motion.div>
         
+          <div className='box bg-[#ebebeb] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'><span></span><p>Celebrate</p></div>
+       
         </div>
 
     </div>
